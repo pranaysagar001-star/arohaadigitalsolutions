@@ -1,6 +1,28 @@
-import { Reveal } from "@/components/reveal";
+const projects = [
+  {
+    name: "Adityaram Signature",
+    line: "Refined positioning",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    name: "Aparna Towers",
+    line: "Shift in perception",
+    image:
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    name: "My Home",
+    line: "Aligned with buyer intent",
+    image:
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1400&q=85"
+  }
+];
 
-const proof = ["INR 100Cr+ inventory influenced", "Limited partnerships per quarter"];
+const quotes = [
+  "They understood our buyers better than we did.",
+  "The quality of conversations changed."
+];
 
 export default function Home() {
   return (
@@ -29,33 +51,68 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#f8f8f8] px-5 py-28 sm:px-8 sm:py-40 lg:px-12">
-        <Reveal className="mx-auto max-w-6xl text-center">
-          <h1 className="font-display text-5xl font-light leading-none text-[#111111] sm:text-7xl lg:text-8xl">
-            We don&apos;t run campaigns.
-            <br />
-            We move inventory.
+      <section className="bg-white px-5 py-28 text-center sm:px-8 sm:py-36 lg:px-12">
+        <div className="mx-auto max-w-5xl">
+          <h1 className="font-display text-5xl font-light leading-tight text-[#111111] sm:text-6xl lg:text-7xl">
+            Luxury is recognized instantly.
           </h1>
-
-          <div className="mx-auto mt-14 grid max-w-3xl gap-4 text-sm font-light uppercase tracking-luxury text-[#555555] sm:grid-cols-3">
-            <p>Select developments only</p>
-            <p>Strategy-led execution</p>
-            <p>Built for high-value projects</p>
-          </div>
-
-          <div className="mx-auto mt-24 grid max-w-3xl gap-10 border-y border-[#b08a24]/25 py-10 sm:grid-cols-2">
-            {proof.map((item) => (
-              <p
-                key={item}
-                className="font-display text-3xl font-light text-[#9a7420] sm:text-4xl"
-              >
-                {item}
-              </p>
-            ))}
-          </div>
-        </Reveal>
+          <p className="mx-auto mt-8 max-w-2xl text-base font-light leading-8 text-[#555555] sm:text-lg">
+            The way it is presented decides everything.
+          </p>
+        </div>
       </section>
 
+      <section className="bg-white px-5 pb-28 sm:px-8 sm:pb-36 lg:px-12">
+        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
+          {projects.map((project) => (
+            <article key={project.name}>
+              <div className="group aspect-[4/5] overflow-hidden bg-[#f8f8f8]">
+                <div
+                  aria-label={project.name}
+                  role="img"
+                  className="h-full w-full bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.025]"
+                  style={{ backgroundImage: `url(${project.image})` }}
+                />
+              </div>
+              <h2 className="mt-7 text-xs font-light uppercase tracking-luxury text-[#111111]">
+                {project.name}
+              </h2>
+              <p className="mt-3 text-sm font-light leading-7 text-[#555555]">
+                {project.line}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-24 text-center sm:px-8 sm:py-32 lg:px-12">
+        <p className="mx-auto max-w-3xl font-display text-4xl font-light leading-tight text-[#111111] sm:text-5xl lg:text-6xl">
+          Buyers don&apos;t decide instantly.
+          <br />
+          They form perception first.
+        </p>
+      </section>
+
+      <section className="bg-white px-5 py-24 text-center sm:px-8 sm:py-32 lg:px-12">
+        <div className="mx-auto max-w-5xl space-y-12">
+          {quotes.map((quote) => (
+            <blockquote
+              key={quote}
+              className="font-display text-3xl font-light leading-tight text-[#111111] sm:text-4xl lg:text-5xl"
+            >
+              &ldquo;{quote}&rdquo;
+            </blockquote>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white px-5 pb-44 pt-24 text-center sm:px-8 sm:pb-56 sm:pt-32 lg:px-12">
+        <p className="mx-auto max-w-5xl font-display text-5xl font-light leading-tight text-[#111111] sm:text-6xl lg:text-7xl">
+          Some projects are seen.
+          <br />
+          Some are chosen.
+        </p>
+      </section>
     </main>
   );
 }
