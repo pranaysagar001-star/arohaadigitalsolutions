@@ -18,11 +18,27 @@ const contactItems = [
 ];
 
 const socialLinks = [
-  { label: "Facebook", href: "#", icon: FacebookIcon },
-  { label: "Instagram", href: "#", icon: InstagramIcon },
-  { label: "YouTube", href: "#", icon: YoutubeIcon },
-  { label: "LinkedIn", href: "#", icon: LinkedinIcon },
-  { label: "X", href: "#", icon: XIcon }
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61580730495192",
+    icon: FacebookIcon
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/arohaa_digital_solutions/",
+    icon: InstagramIcon
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/channel/UC4nmZUeKK4tC1TXuGxZUglA",
+    icon: YoutubeIcon
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/company/aroha-digital-solutions/",
+    icon: LinkedinIcon
+  },
+  { label: "X", href: "https://x.com/ArohaaDigitals", icon: XIcon }
 ];
 
 export function Footer() {
@@ -83,14 +99,16 @@ export function Footer() {
           {socialLinks.map((item) => {
             const Icon = item.icon;
             return (
-              <Link
+              <a
                 key={item.label}
                 href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={item.label}
                 className="text-[#cccccc] transition-colors duration-500 hover:text-champagne"
               >
                 <Icon />
-              </Link>
+              </a>
             );
           })}
         </div>
