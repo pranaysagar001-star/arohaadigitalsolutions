@@ -39,15 +39,15 @@ export default function Home() {
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_72%)]" />
           <div className="relative flex min-h-[92vh] items-center px-8 sm:px-14 lg:px-24 xl:px-28 lg:min-h-[98vh]">
             <div className="max-w-[36rem]">
-            <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
-              Market Leadership
-            </p>
-            <h1
-              className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.015em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
-              style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.2)" }}
-            >
-              Presence should lead the market before the market responds.
-            </h1>
+              <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
+                Market Leadership
+              </p>
+              <h1
+                className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.22] tracking-[0.025em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
+                style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.2)" }}
+              >
+                Presence should lead the market before the market responds.
+              </h1>
             </div>
           </div>
         </article>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="mx-auto flex min-h-[40vh] max-w-4xl items-center justify-center px-4 text-center">
           <div className="flex flex-col items-center">
             <span className="mb-5 h-px w-[60px] bg-[#C6A75E]" />
-            <p className="font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.02em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.35rem]">
+            <p className="font-display text-[2.15rem] font-normal leading-[1.22] tracking-[0.02em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.35rem]">
               Structure defines scale.
             </p>
           </div>
@@ -80,10 +80,10 @@ export default function Home() {
             <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
               Strategic Positioning
             </p>
-            <h2 className="mt-7 font-display text-4xl font-medium leading-[1.02] text-[#1A1A1A] sm:text-5xl lg:text-6xl">
+            <h2 className="mt-7 font-display text-4xl font-normal leading-[1.22] tracking-[0.025em] text-[#1A1A1A] sm:text-5xl lg:text-6xl">
               Digital presence should feel as considered as the asset itself.
             </h2>
-            <p className="mt-7 text-sm font-light leading-8 tracking-[0.02em] text-[#555555] sm:text-base">
+            <p className="mt-7 text-sm font-light leading-8 tracking-[0.02em] text-[rgba(85,85,85,0.88)] sm:text-base">
               The first impression must signal category, confidence, and control.
             </p>
           </div>
@@ -103,7 +103,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 flex items-center justify-center px-8 text-center sm:px-14 lg:px-20">
             <div className="max-w-[42rem]">
-              <p className="font-display text-[1.85rem] font-normal leading-[1.1] tracking-[0.015em] text-[#1A1A1A] sm:text-[2.15rem] lg:text-[2.7rem] lg:whitespace-nowrap">
+              <p className="font-display text-[1.85rem] font-normal leading-[1.22] tracking-[0.02em] text-[#1A1A1A] sm:text-[2.15rem] lg:text-[2.7rem] lg:whitespace-nowrap">
                 Position defines perception.
               </p>
             </div>
@@ -151,7 +151,7 @@ export default function Home() {
                 Authority
               </p>
               <h2
-                className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.015em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
+                className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.22] tracking-[0.025em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
                 style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.2)" }}
               >
                 Structured visibility changes the quality of demand.
@@ -164,10 +164,10 @@ export default function Home() {
       {/* Section 6: minimal credibility statement. */}
       <section className="px-5 py-16 text-center sm:px-8 sm:py-20 lg:px-12 lg:py-24">
         <div className="mx-auto max-w-4xl">
-          <p className="font-display text-7xl font-medium leading-none text-[#1A1A1A] sm:text-8xl lg:text-9xl">
+          <p className="font-display text-7xl font-normal leading-none tracking-[0.02em] text-[#1A1A1A] sm:text-8xl lg:text-9xl">
             100Cr+
           </p>
-          <p className="mx-auto mt-7 max-w-xl text-[0.78rem] font-light uppercase tracking-[0.3em] text-[#555555] sm:text-[0.84rem]">
+          <p className="mx-auto mt-7 max-w-xl text-[0.78rem] font-light uppercase tracking-[0.3em] text-[rgba(85,85,85,0.86)] sm:text-[0.84rem]">
             Revenue influenced through structured digital execution
           </p>
         </div>
@@ -176,16 +176,16 @@ export default function Home() {
       {/* Section 7: final decision and premium CTA. */}
       <section className="bg-[linear-gradient(180deg,#F8F7F3_0%,#F2EBD8_100%)] px-5 py-28 text-center sm:px-8 sm:py-36 lg:px-12 lg:py-44">
         <div className="mx-auto max-w-4xl">
-          <h2 className="font-display text-5xl font-medium leading-[1.02] text-[#1A1A1A] sm:text-6xl lg:text-7xl">
+          <h2 className="font-display text-5xl font-normal leading-[1.22] tracking-[0.025em] text-[#1A1A1A] sm:text-6xl lg:text-7xl">
             Growth, when structured correctly, becomes inevitable.
           </h2>
           <a
             href="#private-access"
-            className="mt-12 inline-flex bg-[#C6A75E] px-9 py-5 text-xs font-medium uppercase tracking-[0.26em] text-white"
+            className="mt-12 inline-flex rounded-[8px] bg-[#C6A75E] px-7 py-[14px] text-xs font-normal uppercase tracking-[0.24em] text-[#1A1A1A] shadow-[0_10px_24px_rgba(198,167,94,0.18)] transition-colors duration-300 hover:bg-[#b89b56] hover:shadow-[0_12px_28px_rgba(198,167,94,0.22)]"
           >
             Request Access
           </a>
-          <p className="mt-7 text-[0.68rem] font-light uppercase tracking-[0.28em] text-[#888888]">
+          <p className="mt-7 text-[0.68rem] font-light uppercase tracking-[0.28em] text-[rgba(136,136,136,0.9)]">
             Selective partnerships
           </p>
         </div>

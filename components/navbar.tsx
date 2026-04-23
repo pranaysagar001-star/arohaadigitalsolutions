@@ -35,8 +35,8 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="relative mx-auto flex min-h-28 max-w-[92rem] items-center justify-between px-5 py-4 sm:min-h-32 sm:px-8 lg:min-h-[132px] lg:px-12 lg:py-0">
-        <div className="hidden items-center gap-8 xl:gap-11 lg:absolute lg:left-[calc(48%_-_34rem)] lg:flex">
+      <nav className="relative mx-auto flex min-h-[72px] max-w-[92rem] items-center justify-between px-5 py-3 sm:min-h-[76px] sm:px-8 sm:py-[13px] lg:min-h-[80px] lg:px-12 lg:py-[14px]">
+        <div className="hidden items-center gap-4 xl:gap-6 lg:absolute lg:left-[calc(48%_-_27rem)] lg:flex">
           {leftItems.map((item) => (
             <NavLink
               key={item.href}
@@ -57,12 +57,12 @@ export function Navbar() {
             width={490}
             height={436}
             priority
-            className="h-20 w-auto sm:h-24 lg:h-[128px]"
+            className="h-12 w-auto object-contain sm:h-[52px] lg:h-[56px]"
           />
         </Link>
 
         <div className="hidden items-center sm:right-8 lg:absolute lg:right-12 lg:flex">
-          <div className="mr-9 flex items-center gap-8 xl:mr-12 xl:gap-11">
+          <div className="flex items-center gap-4 xl:gap-6">
             {rightItems.map((item) => (
               <NavLink
                 key={item.href}
@@ -74,7 +74,7 @@ export function Navbar() {
 
           <Link
             href="#private-access"
-            className="border border-champagne px-5 py-3 text-xs font-light uppercase tracking-luxury text-champagne transition-all duration-500 hover:bg-champagne hover:text-white"
+            className="ml-12 rounded-[8px] bg-[#C6A75E] px-5 py-2.5 text-[0.68rem] font-medium uppercase tracking-[0.05em] text-[#1A1A1A] shadow-[0_8px_20px_rgba(198,167,94,0.16)] transition-all duration-300 hover:bg-[#b89a52] hover:shadow-[0_10px_24px_rgba(198,167,94,0.2)]"
           >
             Access
           </Link>
@@ -121,7 +121,7 @@ export function Navbar() {
           <Link
             href="#private-access"
             onClick={() => setOpen(false)}
-            className="mt-4 border border-champagne px-5 py-4 text-center text-sm font-light uppercase tracking-luxury text-champagne transition-all duration-500 hover:bg-champagne hover:text-white"
+            className="mt-4 rounded-[8px] bg-[#C6A75E] px-5 py-3 text-center text-[0.72rem] font-medium uppercase tracking-[0.05em] text-[#1A1A1A] shadow-[0_8px_20px_rgba(198,167,94,0.16)] transition-all duration-300 hover:bg-[#b89a52] hover:shadow-[0_10px_24px_rgba(198,167,94,0.2)]"
           >
             Access
           </Link>
