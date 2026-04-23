@@ -33,18 +33,22 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=2200&q=88)"
+              backgroundImage: "url('/home-leadership.jpg')"
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/72 via-black/24 to-transparent" />
-          <div className="relative flex min-h-[78vh] max-w-3xl flex-col justify-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-16 lg:pb-20">
+          <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_72%)]" />
+          <div className="relative flex min-h-[78vh] items-center px-8 sm:px-12 lg:px-20 xl:px-24">
+            <div className="max-w-[36rem]">
             <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
               Market Leadership
             </p>
-            <h1 className="mt-7 font-display text-5xl font-medium leading-[0.96] text-white sm:text-6xl lg:text-7xl xl:text-8xl">
+            <h1
+              className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.015em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
+              style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.2)" }}
+            >
               Presence should lead the market before the market responds.
             </h1>
+            </div>
           </div>
         </article>
       </section>
@@ -57,8 +61,7 @@ export default function Home() {
             role="img"
             className="min-h-[34rem] rounded-[18px] bg-cover bg-center"
             style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1800&q=88)"
+              backgroundImage: "url('/home-strategy.jpg')"
             }}
           />
           <div className="max-w-xl">
@@ -83,15 +86,15 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center grayscale"
             style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=2200&q=88)"
+              backgroundImage: "url('/home-pause.jpg')"
             }}
           />
-          <div className="absolute inset-0 bg-black/32" />
-          <div className="relative flex min-h-[66vh] items-center justify-center px-8 text-center sm:px-12">
-            <p className="max-w-4xl font-display text-5xl font-medium leading-[0.98] text-white sm:text-6xl lg:text-7xl">
-              Position defines perception.
-            </p>
+          <div className="absolute inset-0 flex items-center justify-center px-8 text-center sm:px-12">
+            <div className="max-w-[42rem]">
+              <p className="font-display text-[1.85rem] font-normal leading-[1.1] tracking-[0.015em] text-[#1A1A1A] sm:text-[2.15rem] lg:text-[2.7rem] lg:whitespace-nowrap">
+                Position defines perception.
+              </p>
+            </div>
           </div>
         </article>
       </section>
@@ -126,17 +129,19 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=88)"
+              backgroundImage: "url('/home-skyline.jpg')"
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/22 to-transparent" />
-          <div className="relative flex min-h-[76vh] items-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-16 lg:pb-20">
-            <div className="max-w-3xl">
+          <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.16)_40%,rgba(0,0,0,0)_72%)]" />
+          <div className="relative flex min-h-[76vh] items-center px-8 sm:px-12 lg:px-20 xl:px-24">
+            <div className="max-w-[36rem]">
               <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
                 Authority
               </p>
-              <h2 className="mt-6 font-display text-5xl font-medium leading-[0.98] text-white sm:text-6xl lg:text-7xl">
+              <h2
+                className="mt-6 max-w-[36rem] font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.015em] text-[#F5F5F5] sm:text-[2.5rem] lg:text-[3.2rem]"
+                style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.2)" }}
+              >
                 Structured visibility changes the quality of demand.
               </h2>
             </div>
