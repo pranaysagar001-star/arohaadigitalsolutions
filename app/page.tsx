@@ -26,8 +26,8 @@ export default function Home() {
       </section>
 
       {/* Section 1: full visual introduction with market-leadership framing. */}
-      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
-        <article className="relative min-h-[78vh] overflow-hidden rounded-[20px]">
+      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-36">
+        <article className="relative min-h-[92vh] overflow-hidden rounded-[20px] lg:min-h-[98vh]">
           <div
             aria-label="Premium high-rise development"
             role="img"
@@ -37,7 +37,7 @@ export default function Home() {
             }}
           />
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_72%)]" />
-          <div className="relative flex min-h-[78vh] items-center px-8 sm:px-12 lg:px-20 xl:px-24">
+          <div className="relative flex min-h-[92vh] items-center px-8 sm:px-14 lg:px-24 xl:px-28 lg:min-h-[98vh]">
             <div className="max-w-[36rem]">
             <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
               Market Leadership
@@ -53,18 +53,30 @@ export default function Home() {
         </article>
       </section>
 
+      {/* Empty power section: whitespace pause for pacing. */}
+      <section className="px-5 py-[60px] sm:px-8 sm:py-[68px] lg:px-12 lg:py-[76px]">
+        <div className="mx-auto flex min-h-[40vh] max-w-4xl items-center justify-center px-4 text-center">
+          <div className="flex flex-col items-center">
+            <span className="mb-5 h-px w-[60px] bg-[#C6A75E]" />
+            <p className="font-display text-[2.15rem] font-normal leading-[1.08] tracking-[0.02em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.35rem]">
+              Structure defines scale.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Section 2: split image and strategy statement. */}
-      <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
-        <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
+      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
           <div
             aria-label="Luxury residential arrival experience"
             role="img"
-            className="min-h-[34rem] rounded-[18px] bg-cover bg-center"
+            className="min-h-[32rem] rounded-[18px] bg-cover bg-center lg:min-h-[40rem]"
             style={{
               backgroundImage: "url('/home-strategy.jpg')"
             }}
           />
-          <div className="max-w-xl">
+          <div className="max-w-[38rem] lg:max-w-[34rem]">
             <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
               Strategic Positioning
             </p>
@@ -79,8 +91,8 @@ export default function Home() {
       </section>
 
       {/* Section 3: visual pause moment. */}
-      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
-        <article className="relative min-h-[66vh] overflow-hidden rounded-[20px]">
+      <section className="px-5 py-28 sm:px-8 sm:py-32 lg:px-12 lg:py-40">
+        <article className="relative min-h-[94vh] overflow-hidden rounded-[20px] lg:min-h-[102vh]">
           <div
             aria-label="Architectural facade symmetry"
             role="img"
@@ -89,7 +101,7 @@ export default function Home() {
               backgroundImage: "url('/home-pause.jpg')"
             }}
           />
-          <div className="absolute inset-0 flex items-center justify-center px-8 text-center sm:px-12">
+          <div className="absolute inset-0 flex items-center justify-center px-8 text-center sm:px-14 lg:px-20">
             <div className="max-w-[42rem]">
               <p className="font-display text-[1.85rem] font-normal leading-[1.1] tracking-[0.015em] text-[#1A1A1A] sm:text-[2.15rem] lg:text-[2.7rem] lg:whitespace-nowrap">
                 Position defines perception.
@@ -100,10 +112,10 @@ export default function Home() {
       </section>
 
       {/* Section 4: minimal horizontal process. */}
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
-        <div className="mx-auto max-w-7xl">
-          <div className="border-y border-[#D8D2C4] py-8 sm:py-10">
-            <div className="grid gap-8 text-center sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
+      <section className="px-5 py-[60px] sm:px-8 sm:py-[60px] lg:px-12 lg:py-[60px]">
+        <div className="mx-auto flex max-w-7xl items-center justify-center">
+          <div className="w-full border-y border-[#D8D2C4] py-8 sm:py-9">
+            <div className="grid items-center gap-8 text-center sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
               {[
                 "Position",
                 "Demand",
@@ -111,7 +123,7 @@ export default function Home() {
                 "Scale"
               ].map((item) => (
                 <div key={item}>
-                  <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
+                  <p className="text-[0.78rem] font-light uppercase tracking-[0.34em] text-[#C6A75E] sm:text-[0.82rem]">
                     {item}
                   </p>
                 </div>
@@ -122,8 +134,8 @@ export default function Home() {
       </section>
 
       {/* Section 5: skyline authority visual. */}
-      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
-        <article className="relative min-h-[76vh] overflow-hidden rounded-[20px]">
+      <section className="px-5 py-28 sm:px-8 sm:py-32 lg:px-12 lg:py-40">
+        <article className="relative min-h-[94vh] overflow-hidden rounded-[20px] lg:min-h-[104vh]">
           <div
             aria-label="City skyline and premium towers"
             role="img"
@@ -133,7 +145,7 @@ export default function Home() {
             }}
           />
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.16)_40%,rgba(0,0,0,0)_72%)]" />
-          <div className="relative flex min-h-[76vh] items-center px-8 sm:px-12 lg:px-20 xl:px-24">
+          <div className="relative flex min-h-[94vh] items-center px-8 sm:px-14 lg:px-24 xl:px-28 lg:min-h-[104vh]">
             <div className="max-w-[36rem]">
               <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
                 Authority
@@ -150,7 +162,7 @@ export default function Home() {
       </section>
 
       {/* Section 6: minimal credibility statement. */}
-      <section className="px-5 py-28 text-center sm:px-8 sm:py-32 lg:px-12 lg:py-36">
+      <section className="px-5 py-16 text-center sm:px-8 sm:py-20 lg:px-12 lg:py-24">
         <div className="mx-auto max-w-4xl">
           <p className="font-display text-7xl font-medium leading-none text-[#1A1A1A] sm:text-8xl lg:text-9xl">
             100Cr+
@@ -162,7 +174,7 @@ export default function Home() {
       </section>
 
       {/* Section 7: final decision and premium CTA. */}
-      <section className="bg-[linear-gradient(180deg,#F8F7F3_0%,#F2EBD8_100%)] px-5 py-28 text-center sm:px-8 sm:py-32 lg:px-12 lg:py-36">
+      <section className="bg-[linear-gradient(180deg,#F8F7F3_0%,#F2EBD8_100%)] px-5 py-28 text-center sm:px-8 sm:py-36 lg:px-12 lg:py-44">
         <div className="mx-auto max-w-4xl">
           <h2 className="font-display text-5xl font-medium leading-[1.02] text-[#1A1A1A] sm:text-6xl lg:text-7xl">
             Growth, when structured correctly, becomes inevitable.
