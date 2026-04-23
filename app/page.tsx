@@ -123,7 +123,7 @@ export default function Home() {
                 "Scale"
               ].map((item) => (
                 <div key={item}>
-                  <p className="text-[0.78rem] font-light uppercase tracking-[0.34em] text-[#C6A75E] sm:text-[0.82rem]">
+                  <p className="text-[0.88rem] font-normal uppercase tracking-[0.05em] text-[#C6A75E] sm:text-[0.94rem] lg:text-[0.98rem]">
                     {item}
                   </p>
                 </div>
