@@ -12,6 +12,10 @@ export default function Home() {
           poster="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2400&q=80"
         >
           <source
+            src="/hero-video.mp4"
+            type="video/mp4"
+          />
+          <source
             src="https://videos.pexels.com/video-files/7578541/7578541-hd_1920_1080_30fps.mp4"
             type="video/mp4"
           />
