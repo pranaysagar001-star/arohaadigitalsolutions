@@ -21,8 +21,12 @@ body {
   min-height: 100vh;
   background: #ffffff;
   color: #111111;
-  font-family: var(--font-inter), Arial, sans-serif;
+  font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
   text-rendering: geometricPrecision;
+}
+
+.font-display {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
 ::selection {
