@@ -75,7 +75,7 @@ export default function ApproachPage() {
         </div>
       </section>
 
-      <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[75rem] items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="max-w-[31rem]">
             <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
@@ -103,7 +103,7 @@ export default function ApproachPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="relative min-h-[74vh] overflow-hidden rounded-[24px]">
           <div
             aria-label="Structured architectural geometry"
@@ -123,13 +123,13 @@ export default function ApproachPage() {
               Every engagement follows a defined system.
             </p>
 
-            <div className="mt-14 grid w-full max-w-[68rem] gap-10 lg:grid-cols-4 lg:gap-12">
+            <div className="mt-16 grid w-full max-w-[58rem] gap-14 text-left md:grid-cols-2 md:gap-x-20 md:gap-y-16">
               {frameworkItems.map((item) => (
-                <div key={item.title} className="text-center">
-                  <p className="text-[0.82rem] font-normal uppercase tracking-[0.18em] text-[#C6A75E]">
+                <div key={item.title}>
+                  <p className="text-[0.84rem] font-normal uppercase tracking-[0.18em] text-[#C6A75E]">
                     {item.title}
                   </p>
-                  <p className="mx-auto mt-5 max-w-[14rem] text-sm font-light leading-[1.72] tracking-[0.01em] text-[#555555]">
+                  <p className="mt-5 max-w-[18rem] font-display text-[1.55rem] font-normal leading-[1.35] tracking-[0.015em] text-[#1A1A1A] sm:text-[1.7rem]">
                     {item.text}
                   </p>
                 </div>
@@ -139,37 +139,49 @@ export default function ApproachPage() {
         </div>
       </section>
 
-      <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
-        <div className="mx-auto max-w-[75rem]">
-          <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
-            EXECUTION DEPTH
-          </p>
-          <h2 className="mt-5 max-w-[37rem] font-display text-[2.6rem] font-normal leading-[1.18] tracking-[0.025em] text-[#1A1A1A] sm:text-[3rem] lg:text-[3.35rem]">
-            Execution Without Clarity Is Waste.
-          </h2>
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
+        <div className="mx-auto grid max-w-[75rem] gap-16 lg:grid-cols-[0.4fr_0.6fr] lg:gap-20">
+          <div>
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
+              EXECUTION DEPTH
+            </p>
+            <h2 className="mt-5 max-w-[30rem] font-display text-[3rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[3.3rem] lg:text-[3.5rem]">
+              Execution Without Clarity Is Waste.
+            </h2>
+          </div>
 
-          <div className="mt-12 max-w-[58rem] border-t border-[rgba(198,167,94,0.2)]">
-            {executionSteps.map((step, index) => (
-              <div
-                key={step.title}
-                className="grid gap-4 border-b border-[rgba(198,167,94,0.16)] py-6 sm:grid-cols-[56px_0.9fr_1.1fr] sm:gap-8"
-              >
-                <p className="text-[0.82rem] font-normal uppercase tracking-[0.12em] text-[#C6A75E]">
-                  {index + 1}
-                </p>
-                <p className="text-[0.9rem] font-normal uppercase tracking-[0.12em] text-[#1A1A1A]">
-                  {step.title}
-                </p>
-                <p className="max-w-[32rem] text-sm font-light leading-[1.72] tracking-[0.01em] text-[#555555]">
-                  {step.text}
-                </p>
-              </div>
-            ))}
+          <div className="relative lg:pl-12">
+            <div className="absolute left-0 top-0 hidden h-full w-px bg-[rgba(0,0,0,0.05)] lg:block" />
+            <div className="space-y-10 lg:space-y-9">
+              {executionSteps.map((step, index) => (
+                <div key={step.title} className="relative pl-16 sm:pl-20">
+                  <span className="absolute left-0 top-[-10px] font-display text-[3.1rem] leading-none tracking-[0.02em] text-[rgba(0,0,0,0.08)] sm:text-[3.5rem] lg:text-[4rem]">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <p className="text-[0.95rem] font-normal uppercase tracking-[0.12em] text-[#1A1A1A]">
+                    {step.title}
+                  </p>
+                  <p className="mt-3 max-w-[32rem] text-[0.98rem] font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
+                    {step.text}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[160px] text-center sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[46rem]">
+          <p className="font-display text-[2.4rem] font-normal leading-[1.22] tracking-[0.025em] text-[#1A1A1A] sm:text-[3rem] lg:text-[3.4rem]">
+            Systems create predictability.
+            <br />
+            Predictability creates scale.
+          </p>
+        </div>
+      </section>
+
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="relative min-h-[56vh] overflow-hidden rounded-[24px]">
           <div
             aria-label="Abstract architectural statement"
@@ -186,7 +198,7 @@ export default function ApproachPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 text-center sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[100px] text-center sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[50rem]">
           <h2 className="font-display text-[2.8rem] font-normal leading-[1.18] tracking-[0.025em] text-[#1A1A1A] sm:text-[3.2rem] lg:text-[3.6rem]">
             Clarity Leads. Growth Follows.
