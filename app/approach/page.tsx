@@ -49,7 +49,7 @@ export default function ApproachPage() {
             aria-label="Architectural skyline"
             role="img"
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/about-cover.jpg')" }}
+            style={{ backgroundImage: "url('/approach-cover.png')" }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.48)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_78%)]" />
           <div className="relative flex min-h-[86vh] items-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-20 lg:pb-24">
@@ -98,7 +98,7 @@ export default function ApproachPage() {
             aria-label="Corporate architectural lines"
             role="img"
             className="min-h-[36rem] rounded-[24px] bg-cover bg-center"
-            style={{ backgroundImage: "url('/about-story.jpg')" }}
+            style={{ backgroundImage: "url('/approach-problem.jpg')" }}
           />
         </div>
       </section>
@@ -109,7 +109,7 @@ export default function ApproachPage() {
             aria-label="Structured architectural geometry"
             role="img"
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/home-pause.jpg')" }}
+            style={{ backgroundImage: "url('/approach-system.png')" }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(250,249,246,0.82)_0%,rgba(250,249,246,0.78)_36%,rgba(250,249,246,0.9)_100%)]" />
           <div className="relative flex min-h-[74vh] flex-col items-center justify-center px-8 text-center sm:px-12 lg:px-20">
@@ -187,7 +187,7 @@ export default function ApproachPage() {
             aria-label="Abstract architectural statement"
             role="img"
             className="absolute inset-0 bg-cover bg-center grayscale"
-            style={{ backgroundImage: "url('/home-pause.jpg')" }}
+            style={{ backgroundImage: "url('/approach-statement.jpg')" }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(250,249,246,0.68)_0%,rgba(250,249,246,0.8)_100%)]" />
           <div className="relative flex min-h-[56vh] items-center justify-center px-8 text-center sm:px-12">
