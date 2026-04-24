@@ -12,8 +12,8 @@ const quickLinks = [
 ];
 
 const contactItems = [
-  { label: "Phone", value: "+91 00000 00000" },
-  { label: "Email", value: "access@arohaa.digital" },
+  { label: "Phone", value: "+91 6302543764" },
+  { label: "Email", value: "arohaadigitalsolutions@gmail.com" },
   { label: "Location", value: "India" }
 ];
 
