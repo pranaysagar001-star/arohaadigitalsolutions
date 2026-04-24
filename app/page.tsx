@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="bg-[#F8F7F3] text-[#1A1A1A]">
+    <main className="bg-[#FAF9F6] text-[#1A1A1A]">
       <section className="video-fallback relative min-h-screen overflow-hidden">
         <video
           className="absolute inset-0 h-full w-full object-cover"
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_72%)]" />
           <div className="relative flex min-h-[92vh] items-center px-8 sm:px-14 lg:px-24 xl:px-28 lg:min-h-[98vh]">
             <div className="max-w-[36rem]">
-              <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
+              <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
                 Market Leadership
               </p>
               <h1
@@ -58,10 +58,10 @@ export default function Home() {
       </section>
 
       {/* Empty power section: whitespace pause for pacing. */}
-      <section className="px-5 py-[60px] sm:px-8 sm:py-[68px] lg:px-12 lg:py-[76px]">
+      <section className="px-5 py-[80px] sm:px-8 lg:px-12">
         <div className="mx-auto flex min-h-[40vh] max-w-4xl items-center justify-center px-4 text-center">
           <div className="flex flex-col items-center">
-            <span className="mb-5 h-px w-[60px] bg-[#C6A75E]" />
+            <span className="mb-5 h-px w-[60px] bg-[#A68A5B]" />
             <p className="font-display text-[2.15rem] font-normal leading-[1.22] tracking-[0.02em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.35rem]">
               Structure defines scale.
             </p>
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Section 2: split image and strategy statement. */}
-      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+      <section className="px-5 py-[100px] sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
           <div
             aria-label="Luxury residential arrival experience"
@@ -81,7 +81,7 @@ export default function Home() {
             }}
           />
           <div className="max-w-[38rem] lg:max-w-[34rem]">
-            <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
               Strategic Positioning
             </p>
             <h2 className="mt-7 font-display text-4xl font-normal leading-[1.22] tracking-[0.025em] text-[#1A1A1A] sm:text-5xl lg:text-6xl">
@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Section 4: minimal horizontal process. */}
-      <section className="px-5 py-[60px] sm:px-8 sm:py-[60px] lg:px-12 lg:py-[60px]">
+      <section className="px-5 py-[80px] sm:px-8 lg:px-12">
         <div className="mx-auto flex max-w-7xl items-center justify-center">
           <div className="w-full border-y border-[#D8D2C4] py-8 sm:py-9">
             <div className="grid items-center gap-8 text-center sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
@@ -127,7 +127,7 @@ export default function Home() {
                 "Scale"
               ].map((item) => (
                 <div key={item}>
-                  <p className="text-[0.88rem] font-normal uppercase tracking-[0.05em] text-[#C6A75E] sm:text-[0.94rem] lg:text-[0.98rem]">
+                  <p className="text-[0.88rem] font-normal uppercase tracking-[0.12em] text-[#A68A5B] sm:text-[0.94rem] lg:text-[0.98rem]">
                     {item}
                   </p>
                 </div>
@@ -151,7 +151,7 @@ export default function Home() {
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.16)_40%,rgba(0,0,0,0)_72%)]" />
           <div className="relative flex min-h-[94vh] items-center px-8 sm:px-14 lg:px-24 xl:px-28 lg:min-h-[104vh]">
             <div className="max-w-[36rem]">
-              <p className="text-[0.68rem] font-light uppercase tracking-[0.34em] text-[#C6A75E]">
+              <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
                 Authority
               </p>
               <h2
@@ -178,18 +178,18 @@ export default function Home() {
       </section>
 
       {/* Section 7: final decision and premium CTA. */}
-      <section className="bg-[linear-gradient(180deg,#F8F7F3_0%,#F2EBD8_100%)] px-5 py-28 text-center sm:px-8 sm:py-36 lg:px-12 lg:py-44">
+      <section className="bg-[linear-gradient(180deg,#FAF9F6_0%,#F1ECE2_100%)] px-5 py-[120px] text-center sm:px-8 lg:px-12">
         <div className="mx-auto max-w-4xl">
           <h2 className="font-display text-5xl font-normal leading-[1.22] tracking-[0.025em] text-[#1A1A1A] sm:text-6xl lg:text-7xl">
             Growth, when structured correctly, becomes inevitable.
           </h2>
           <a
             href="#private-access"
-            className="mt-12 inline-flex rounded-[8px] bg-[#C6A75E] px-7 py-[14px] text-xs font-normal uppercase tracking-[0.24em] text-[#1A1A1A] shadow-[0_10px_24px_rgba(198,167,94,0.18)] transition-colors duration-300 hover:bg-[#b89b56] hover:shadow-[0_12px_28px_rgba(198,167,94,0.22)]"
+            className="mt-10 inline-flex rounded-[8px] bg-[#C6A75E] px-7 py-[14px] text-xs font-normal uppercase tracking-[0.24em] text-[#1A1A1A] shadow-[0_10px_24px_rgba(198,167,94,0.18)] transition-colors duration-300 hover:bg-[#b89b56] hover:shadow-[0_12px_28px_rgba(198,167,94,0.22)]"
           >
             Request Access
           </a>
-          <p className="mt-7 text-[0.68rem] font-light uppercase tracking-[0.28em] text-[rgba(136,136,136,0.9)]">
+          <p className="mt-6 text-[0.76rem] font-light uppercase tracking-[0.18em] text-[#555555]">
             Selective partnerships
           </p>
         </div>

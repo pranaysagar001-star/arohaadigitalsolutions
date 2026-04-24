@@ -31,10 +31,10 @@ export default function AboutUsPage() {
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.48)_0%,rgba(0,0,0,0.16)_42%,rgba(0,0,0,0)_78%)]" />
           <div className="relative flex min-h-[88vh] items-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-20 lg:pb-24">
             <div className="max-w-[38rem]">
-              <h1 className="font-display text-[3.2rem] font-normal leading-[1.16] tracking-[0.02em] text-[#F5F5F5] sm:text-[3.8rem] lg:text-[4.45rem]">
+              <h1 className="font-display text-[3.2rem] font-normal leading-[1.2] tracking-[0.02em] text-[#F5F5F5] sm:text-[3.8rem] lg:text-[4.3rem]">
                 Built with Clarity. Scaled with Structure.
               </h1>
-              <p className="mt-6 max-w-[31rem] text-base font-light leading-8 tracking-[0.02em] text-[rgba(245,245,245,0.9)]">
+              <p className="mt-6 max-w-[31rem] text-base font-light leading-[1.6] tracking-[0.02em] text-[rgba(245,245,245,0.9)]">
                 Growth becomes predictable when strategy, execution, and systems operate as
                 one.
               </p>
@@ -43,21 +43,21 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[75rem]">
           <div className="max-w-[37.5rem]">
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
               WHO WE ARE
             </p>
             <h2 className="mt-5 max-w-[37.5rem] font-display text-[2.85rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[3.2rem] lg:text-[3.45rem]">
               Structure Before Scale.
             </h2>
             <div className="mt-5 max-w-[32.5rem] space-y-6">
-              <p className="text-base font-light leading-[1.7] tracking-[0.01em] text-[#555555]">
+              <p className="text-base font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
                 Arohaa Digital Solutions operates at the intersection of positioning, demand,
                 and performance.
               </p>
-              <p className="text-base font-light leading-[1.7] tracking-[0.01em] text-[#555555]">
+              <p className="text-base font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
                 Every engagement is structured to deliver clarity, consistency, and measurable
                 growth.
               </p>
@@ -66,7 +66,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[75rem] items-center gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:gap-20">
           <div
             aria-label="Arohaa story environment"
@@ -75,13 +75,13 @@ export default function AboutUsPage() {
             style={{ backgroundImage: "url('/about-story.jpg')" }}
           />
           <div className="max-w-[32.5rem]">
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
               STORY
             </p>
-            <h2 className="mt-5 font-display text-[2.4rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.8rem] lg:text-[3.15rem]">
+            <h2 className="mt-5 max-w-[37.5rem] font-display text-[2.4rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.8rem] lg:text-[3.15rem]">
               Built from observation, not assumption.
             </h2>
-            <div className="mt-6 space-y-4 text-base font-light leading-[1.72] tracking-[0.01em] text-[#555555]">
+            <div className="mt-6 space-y-4 text-base font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
               <p>Most businesses invest in marketing without structure.</p>
               <p>Activity increases. Outcomes remain inconsistent.</p>
               <p>A different approach became necessary — one built on systems, not noise.</p>
@@ -91,10 +91,10 @@ export default function AboutUsPage() {
       </section>
 
       <section className="px-5 py-[100px] sm:px-8 lg:px-12">
-        <div className="mx-auto grid max-w-[68rem] gap-12 lg:grid-cols-2 lg:gap-14">
-          <article className="rounded-[4px] border border-[rgba(198,167,94,0.15)] bg-[linear-gradient(145deg,#F9F7F2,#F2EFE8)] px-10 py-[60px] sm:px-12 sm:py-[64px] lg:px-[64px] lg:py-[68px]">
-            <div className="mb-5 h-[2px] w-[40px] bg-[#C6A75E]" />
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.2em] text-[#C6A75E]">
+        <div className="mx-auto grid max-w-[68rem] gap-14 lg:grid-cols-2 lg:gap-16">
+          <article className="rounded-[4px] border border-[rgba(166,138,91,0.15)] bg-[linear-gradient(145deg,#F9F7F2,#F2EFE8)] px-10 py-[60px] sm:px-12 sm:py-[64px] lg:px-[64px] lg:py-[68px]">
+            <div className="mb-5 h-[2px] w-[40px] bg-[#A68A5B]" />
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.2em] text-[#A68A5B]">
               VISION
             </p>
             <p className="mt-6 max-w-[31rem] font-display text-[2.2rem] font-normal leading-[1.35] tracking-[0.015em] text-[#1A1A1A] sm:text-[2.45rem] lg:text-[2.6rem]">
@@ -102,9 +102,9 @@ export default function AboutUsPage() {
               leadership.
             </p>
           </article>
-          <article className="rounded-[4px] border border-[rgba(198,167,94,0.15)] bg-[linear-gradient(145deg,#F9F7F2,#F2EFE8)] px-10 py-[60px] sm:px-12 sm:py-[64px] lg:px-[64px] lg:py-[68px]">
-            <div className="mb-5 h-[2px] w-[40px] bg-[#C6A75E]" />
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.2em] text-[#C6A75E]">
+          <article className="rounded-[4px] border border-[rgba(166,138,91,0.15)] bg-[linear-gradient(145deg,#F9F7F2,#F2EFE8)] px-10 py-[60px] sm:px-12 sm:py-[64px] lg:px-[64px] lg:py-[68px]">
+            <div className="mb-5 h-[2px] w-[40px] bg-[#A68A5B]" />
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.2em] text-[#A68A5B]">
               MISSION
             </p>
             <p className="mt-6 max-w-[31rem] font-display text-[2.2rem] font-normal leading-[1.35] tracking-[0.015em] text-[#1A1A1A] sm:text-[2.45rem] lg:text-[2.6rem]">
@@ -114,7 +114,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[75rem] items-center gap-12 lg:grid-cols-[0.84fr_1.16fr] lg:gap-20">
           <div
             aria-label="Founder portrait"
@@ -123,7 +123,7 @@ export default function AboutUsPage() {
             style={{ backgroundImage: "url('/about-founder.png')" }}
           />
           <div className="max-w-[32.5rem]">
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
               FOUNDER
             </p>
             <h2 className="mt-5 font-display text-[2.1rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.45rem] lg:text-[2.8rem]">
@@ -133,9 +133,9 @@ export default function AboutUsPage() {
               Founder &amp; CEO
             </p>
             <blockquote className="mt-8 max-w-[31rem] font-display text-[1.6rem] font-normal leading-[1.4] tracking-[0.015em] text-[#1A1A1A] sm:text-[1.85rem]">
-              “Growth without structure creates noise. Structure creates inevitability.”
+              &ldquo;Growth without structure creates noise. Structure creates inevitability.&rdquo;
             </blockquote>
-            <div className="mt-8 max-w-[32.5rem] space-y-4 text-base font-light leading-[1.72] tracking-[0.01em] text-[#555555]">
+            <div className="mt-8 max-w-[32.5rem] space-y-4 text-base font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
               <p>
                 Arohaa was built on a clear observation — many businesses invest in digital
                 marketing, but very few experience structured growth.
@@ -153,7 +153,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[75rem] text-center">
           <div
             aria-label="Team collaboration"
@@ -168,17 +168,17 @@ export default function AboutUsPage() {
             <h2 className="font-display text-[2.35rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.1rem]">
               Built with Intentional People.
             </h2>
-            <p className="mx-auto mt-5 max-w-[32.5rem] text-base font-light leading-[1.7] tracking-[0.01em] text-[#555555]">
+            <p className="mx-auto mt-5 max-w-[32.5rem] text-base font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
               A focused team aligned on clarity, execution, and measurable outcomes.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
+      <section className="px-5 py-[100px] sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[75rem]">
           <div className="max-w-[37.5rem]">
-            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#C6A75E]">
+            <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
               FRAMEWORK
             </p>
             <h2 className="mt-5 font-display text-[2.35rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.1rem]">
@@ -188,10 +188,10 @@ export default function AboutUsPage() {
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
             {frameworkItems.map((item) => (
               <div key={item.title}>
-                <p className="text-[0.82rem] font-normal uppercase tracking-[0.18em] text-[#C6A75E]">
+                <p className="text-[0.82rem] font-normal uppercase tracking-[0.18em] text-[#A68A5B]">
                   {item.title}
                 </p>
-                <p className="mt-4 max-w-[16rem] text-sm font-light leading-[1.7] tracking-[0.01em] text-[#555555]">
+                <p className="mt-4 max-w-[16rem] text-sm font-light leading-[1.6] tracking-[0.01em] text-[#555555]">
                   {item.text}
                 </p>
               </div>
@@ -200,7 +200,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-24 text-center sm:px-8 sm:py-28 lg:px-12 lg:py-32">
+      <section className="px-5 py-[120px] text-center sm:px-8 lg:px-12">
         <div className="mx-auto max-w-4xl">
           <p className="font-display text-7xl font-normal leading-none tracking-[0.02em] text-[#1A1A1A] sm:text-8xl lg:text-9xl">
             ₹XX Cr+
@@ -212,13 +212,13 @@ export default function AboutUsPage() {
       </section>
 
       <section className="px-5 pt-8 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl rounded-[24px] bg-[linear-gradient(180deg,#FAF9F6_0%,#F2EBD8_100%)] px-8 py-16 text-center sm:px-12 sm:py-20">
+        <div className="mx-auto max-w-5xl rounded-[24px] bg-[linear-gradient(180deg,#FAF9F6_0%,#F1ECE2_100%)] px-8 py-16 text-center sm:px-12 sm:py-20">
           <h2 className="mx-auto max-w-[37.5rem] font-display text-[2.35rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.75rem] lg:text-[3.1rem]">
             Growth, when structured correctly, becomes inevitable.
           </h2>
           <a
             href="#private-access"
-            className="mt-10 inline-flex rounded-[4px] bg-[#C6A75E] px-7 py-3 text-xs font-normal uppercase tracking-[0.2em] text-white transition-colors duration-300 hover:bg-[#b89b56]"
+            className="mt-10 inline-flex rounded-[8px] bg-[#C6A75E] px-7 py-[14px] text-xs font-normal uppercase tracking-[0.24em] text-[#1A1A1A] shadow-[0_10px_24px_rgba(198,167,94,0.18)] transition-colors duration-300 hover:bg-[#b89b56] hover:shadow-[0_12px_28px_rgba(198,167,94,0.22)]"
           >
             Request Access
           </a>
