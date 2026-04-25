@@ -35,8 +35,8 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="relative mx-auto flex min-h-[72px] max-w-[92rem] items-center justify-between px-5 py-3 sm:min-h-[76px] sm:px-8 sm:py-3 lg:min-h-[78px] lg:px-12 lg:py-3">
-        <div className="hidden items-center gap-6 xl:gap-7 lg:absolute lg:left-[calc(50%_-_22rem)] lg:flex">
+      <nav className="relative mx-auto flex min-h-[72px] max-w-[92rem] items-center justify-between px-5 py-3 sm:min-h-[76px] sm:px-8 sm:py-3 lg:min-h-[64px] lg:justify-center lg:px-10 lg:py-2">
+        <div className="hidden items-center gap-8 lg:absolute lg:right-[calc(50%+72px)] lg:flex">
           {leftItems.map((item) => (
             <NavLink
               key={item.href}
@@ -48,7 +48,7 @@ export function Navbar() {
 
         <Link
           href="/"
-          className="lg:absolute lg:left-[48%] lg:-translate-x-1/2"
+          className="lg:absolute lg:left-1/2 lg:z-[1] lg:-translate-x-1/2"
           aria-label="Arohaa Digital Solutions home"
         >
           <Image
@@ -57,24 +57,23 @@ export function Navbar() {
             width={490}
             height={436}
             priority
-            className="h-10 w-auto object-contain sm:h-[44px] lg:h-[48px]"
+            className="h-10 w-auto object-contain sm:h-[44px] lg:h-[42px]"
           />
         </Link>
 
-        <div className="hidden items-center gap-6 xl:gap-7 lg:absolute lg:right-[calc(50%_-_22rem)] lg:flex">
-          {rightItems.map((item) => (
-            <NavLink
-              key={item.href}
-              href={item.href}
-              label={item.label}
-            />
-          ))}
-        </div>
-
-        <div className="hidden items-center lg:absolute lg:right-12 lg:flex">
+        <div className="hidden items-center gap-8 lg:absolute lg:left-[calc(50%+72px)] lg:flex">
+          <div className="flex items-center gap-8">
+            {rightItems.map((item) => (
+              <NavLink
+                key={item.href}
+                href={item.href}
+                label={item.label}
+              />
+            ))}
+          </div>
           <Link
             href="#private-access"
-            className="rounded-[8px] bg-[#C6A75E] px-5 py-2.5 text-[0.68rem] font-medium uppercase tracking-[0.05em] text-[#1A1A1A] shadow-[0_8px_20px_rgba(198,167,94,0.16)] transition-all duration-300 hover:bg-[#b89a52] hover:shadow-[0_10px_24px_rgba(198,167,94,0.2)]"
+            className="ml-10 rounded-[8px] bg-[#C6A75E] px-5 py-2.5 text-[0.68rem] font-medium uppercase tracking-[0.05em] text-[#1A1A1A] shadow-[0_8px_20px_rgba(198,167,94,0.16)] transition-all duration-300 hover:bg-[#b89a52] hover:shadow-[0_10px_24px_rgba(198,167,94,0.2)]"
           >
             Access
           </Link>

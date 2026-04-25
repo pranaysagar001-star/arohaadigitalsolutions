@@ -1,15 +1,15 @@
 const insights = [
   {
     title: "Most real estate advertising fails for the same reason.",
-    text: "Attention increases. Buyers don't."
+    text: "Attention rises. Buyers don't."
   },
   {
     title: "Positioning is ignored. Performance suffers.",
-    text: "No clarity. No conversion quality."
+    text: "No clarity. No quality demand."
   },
   {
     title: "More leads create the same problem at scale.",
-    text: "Volume rises. Quality doesn't."
+    text: "Volume rises. Quality stays flat."
   },
   {
     title: "Activity expands. Outcomes stay flat.",
@@ -17,11 +17,11 @@ const insights = [
   },
   {
     title: "Premium buyers do not respond to mass exposure.",
-    text: "Precision influences. Reach alone does not."
+    text: "Precision influences. Reach does not."
   },
   {
-    title: "Visibility does not create authority.",
-    text: "Market position must be built, not broadcast."
+    title: "More marketing will not fix a broken system.",
+    text: "Broken structure multiplies waste."
   }
 ];
 
@@ -82,7 +82,17 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-[120px] sm:px-8 lg:px-12">
+      <section className="px-5 py-[160px] text-center sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[56rem]">
+          <p className="font-display text-[2.9rem] font-medium leading-[1.18] tracking-[0.018em] text-[#1A1A1A] sm:text-[3.6rem] lg:text-[4.6rem]">
+            The problem is not marketing.
+            <br />
+            The problem is lack of structure.
+          </p>
+        </div>
+      </section>
+
+      <section className="px-5 py-[100px] sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[75rem]">
           <div className="grid gap-x-12 gap-y-16 md:grid-cols-2 xl:gap-x-16 xl:gap-y-20">
             {insights.map((item, index) => (
@@ -124,7 +134,7 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      <section className="px-5 py-[100px] text-center sm:px-8 lg:px-12">
+      <section className="px-5 py-[120px] text-center sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[42rem]">
           <p className="font-display text-[2.4rem] font-normal leading-[1.2] tracking-[0.025em] text-[#1A1A1A] sm:text-[2.9rem] lg:text-[3.3rem]">
             Structured thinking creates predictable growth.
