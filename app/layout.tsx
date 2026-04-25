@@ -4,9 +4,10 @@ import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "ADS | Private Real Estate Marketing Strategy",
-  description:
-    "A selective real estate marketing strategy practice for high-value developments."
+  title: "Arohaa Digital Solutions",
+  icons: {
+    icon: "/logo.png"
+  }
 };
 
 export default function RootLayout({
