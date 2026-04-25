@@ -1,27 +1,27 @@
 const insights = [
   {
-    title: "Real estate advertising fails when attention is mistaken for demand.",
-    text: "Generic creatives attract attention, not buyers."
+    title: "Most real estate advertising fails for the same reason.",
+    text: "Attention increases. Buyers don't."
   },
   {
-    title: "Positioning must lead performance, or performance becomes noise.",
-    text: "Without clarity, marketing becomes noise."
+    title: "Positioning is ignored. Performance suffers.",
+    text: "No clarity. No conversion quality."
   },
   {
-    title: "Lead volume does not create demand quality.",
-    text: "More leads do not guarantee better outcomes."
+    title: "More leads create the same problem at scale.",
+    text: "Volume rises. Quality doesn't."
   },
   {
-    title: "Activity expands faster than outcomes when structure is absent.",
-    text: "Effort increases, but outcomes stay inconsistent."
+    title: "Activity expands. Outcomes stay flat.",
+    text: "More effort. Same inconsistency."
   },
   {
-    title: "Premium buyers respond to precision, not mass exposure.",
-    text: "Mass marketing does not convert premium audiences."
+    title: "Premium buyers do not respond to mass exposure.",
+    text: "Precision influences. Reach alone does not."
   },
   {
-    title: "Visibility alone does not establish market authority.",
-    text: "Presence must be structured before scale becomes durable."
+    title: "Visibility does not create authority.",
+    text: "Market position must be built, not broadcast."
   }
 ];
 
@@ -72,19 +72,37 @@ export default function InsightsPage() {
         </div>
       </section>
 
+      <section className="px-5 py-[150px] text-center sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-[54rem]">
+          <p className="font-display text-[2.8rem] font-medium leading-[1.2] tracking-[0.018em] text-[#1A1A1A] sm:text-[3.4rem] lg:text-[4.4rem]">
+            Most real estate marketing looks premium.
+            <br />
+            Very little of it is structured.
+          </p>
+        </div>
+      </section>
+
       <section className="px-5 py-[120px] sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[75rem]">
           <div className="grid gap-x-12 gap-y-16 md:grid-cols-2 xl:gap-x-16 xl:gap-y-20">
             {insights.map((item, index) => (
               <article
                 key={item.title}
-                className={index < 2 ? "max-w-[31rem]" : "max-w-[24rem]"}
+                className={
+                  index < 2
+                    ? "max-w-[31rem]"
+                    : index < 4
+                      ? "max-w-[26rem]"
+                      : "max-w-[24rem]"
+                }
               >
                 <h2
                   className={
                     index < 2
                       ? "font-display text-[2.25rem] font-medium leading-[1.22] tracking-[0.018em] text-[#1A1A1A] sm:text-[2.65rem]"
-                      : "font-display text-[1.78rem] font-medium leading-[1.28] tracking-[0.018em] text-[#1A1A1A] sm:text-[2.02rem]"
+                      : index < 4
+                        ? "font-display text-[1.95rem] font-medium leading-[1.24] tracking-[0.018em] text-[#1A1A1A] sm:text-[2.15rem]"
+                        : "font-display text-[1.72rem] font-medium leading-[1.28] tracking-[0.018em] text-[#1A1A1A] sm:text-[1.92rem]"
                   }
                 >
                   {item.title}
@@ -93,7 +111,9 @@ export default function InsightsPage() {
                   className={
                     index < 2
                       ? "mt-6 max-w-[23rem] text-base font-light leading-[1.66] tracking-[0.01em] text-[rgba(85,85,85,0.9)]"
-                      : "mt-5 max-w-[22rem] text-base font-light leading-[1.62] tracking-[0.01em] text-[rgba(85,85,85,0.9)]"
+                      : index < 4
+                        ? "mt-5 max-w-[22rem] text-base font-light leading-[1.62] tracking-[0.01em] text-[rgba(85,85,85,0.9)]"
+                        : "mt-4 max-w-[21rem] text-[0.98rem] font-light leading-[1.6] tracking-[0.01em] text-[rgba(85,85,85,0.9)]"
                   }
                 >
                   {item.text}
