@@ -50,7 +50,7 @@ export default function InsightsPage() {
               aria-label="Architectural structural geometry"
               role="img"
               className="absolute inset-0 bg-cover bg-center grayscale"
-              style={{ backgroundImage: "url('/approach-system.png')" }}
+              style={{ backgroundImage: "url('/insights-featured.jpg')" }}
             />
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.5)_0%,rgba(0,0,0,0.22)_42%,rgba(0,0,0,0)_78%)]" />
             <div className="relative flex min-h-[42rem] items-end px-8 pb-14 sm:px-12 sm:pb-18 lg:min-h-[46rem] lg:px-16 lg:pb-24">
