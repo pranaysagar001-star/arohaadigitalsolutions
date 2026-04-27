@@ -2,13 +2,14 @@ export type Development = {
   slug: string;
   name: string;
   location: string;
-  subtext: string;
+  heroLine: string;
+  strategicLine: string;
   image: string;
-  context: string[];
-  marketObservation: string[];
-  strategicGap: string[];
-  developmentModel: string[];
-  expectedShift: string[];
+  statement: string[];
+  visualText: string[];
+  strategicInsight: string;
+  modelLines: string[];
+  finalShift: string[];
 };
 
 export const developments: Development[] = [
@@ -16,139 +17,149 @@ export const developments: Development[] = [
     slug: "sukhi-group",
     name: "Sukhi Group",
     location: "Hyderabad",
-    subtext: "Positioned for measured urban expansion",
+    heroLine: "A strategic structure to move residential branding from generic visibility to category-defining market position.",
+    strategicLine: "Urban expansion requires sharper category control.",
     image:
       "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Sukhi Group operates within a market shaped by speed, aspiration, and growing buyer comparison.",
-      "In that environment, visual similarity often reduces perception before the project is even evaluated."
+    statement: [
+      "Fast-moving residential corridors reward visibility.",
+      "They reward structured perception even more.",
+      "Buyer confidence forms before campaigns fully begin."
     ],
-    marketObservation: [
-      "Mid-to-premium residential demand is active, but attention is fragmented across interchangeable launches.",
-      "Buyers are exposed to volume first and differentiation second."
+    visualText: [
+      "Buyer comparison begins before enquiry.",
+      "Similarity weakens value before campaigns begin.",
+      "That is where disciplined positioning changes the reading."
     ],
-    strategicGap: [
-      "The category often communicates offers and features before identity and market position are established.",
-      "That creates attention without decisive preference."
+    strategicInsight:
+      "When the category speaks in the same language, the sharpest structure becomes the real differentiator.",
+    modelLines: [
+      "Position before promotion",
+      "Perception before lead expansion",
+      "Narrative control before campaign scale"
     ],
-    developmentModel: [
-      "We would define a sharper market position, structure buyer-facing communication around hierarchy, and align demand systems to a clearer decision path.",
-      "The objective would be controlled perception before wider lead expansion."
-    ],
-    expectedShift: [
-      "The brand would move from being compared on surface messaging to being interpreted with stronger market intent.",
-      "That shift changes the quality of enquiry before performance is measured."
+    finalShift: [
+      "The development would move from being seen as available inventory to being read as a more deliberate market choice.",
+      "That shift improves the quality of attention before performance is measured."
     ]
   },
   {
     slug: "vertex-homes",
     name: "Vertex Homes",
     location: "Hyderabad",
-    subtext: "Sharper category distinction in competitive corridors",
+    heroLine: "A positioning-led model to shift real estate communication from generic advertising to sharper category distinction.",
+    strategicLine: "Competitive corridors demand sharper distinction.",
     image:
       "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Vertex Homes sits in a segment where project quality alone does not secure stronger market perception.",
-      "Buyers interpret brand clarity long before they respond to campaign volume."
+    statement: [
+      "Quality alone rarely secures perception.",
+      "The market responds to the frame around it.",
+      "Without structure, quality is flattened into category sameness."
     ],
-    marketObservation: [
-      "Residential launches in growth zones increasingly look polished but communicate similar signals.",
-      "As a result, attention is easy to generate and harder to convert into conviction."
+    visualText: [
+      "Polished launches often still feel interchangeable.",
+      "Attention arrives. Conviction does not.",
+      "The gap sits between exposure and interpretation."
     ],
-    strategicGap: [
-      "Most communication stops at visibility and does not build a distinct interpretive frame around the development.",
-      "That keeps the project within the same mental category as its peers."
+    strategicInsight:
+      "A project becomes harder to compare generically when its position is defined before its campaigns are amplified.",
+    modelLines: [
+      "Position before promotion",
+      "Meaning before media scale",
+      "One narrative before channel fragmentation"
     ],
-    developmentModel: [
-      "The model would establish positioning language first, then shape campaign architecture, landing environments, and response systems around that position.",
-      "Execution would follow a single structured narrative rather than isolated performance assets."
-    ],
-    expectedShift: [
-      "The development would feel more deliberate, more specific, and harder to compare generically.",
-      "That is the first step toward stronger buyer quality."
+    finalShift: [
+      "The development would feel more intentional and more difficult to reduce to category sameness.",
+      "That is how stronger buyer quality begins."
     ]
   },
   {
     slug: "vasavi-group",
     name: "Vasavi Group",
     location: "Hyderabad",
-    subtext: "A controlled narrative for premium intent",
+    heroLine: "A strategic approach to move premium real estate brands from repetitive promotion to category-defining perception.",
+    strategicLine: "Premium demand responds to controlled narrative.",
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Vasavi Group operates in a segment where perception influences pace, enquiry quality, and pricing confidence.",
-      "That requires more than strong media presence."
+    statement: [
+      "Premium environments are interpreted before they are evaluated.",
+      "Presence alone does not create pricing confidence.",
+      "The market reads order before it reads scale."
     ],
-    marketObservation: [
-      "Premium buyers are increasingly selective in how they interpret value.",
-      "They respond to order, restraint, and confidence rather than noise."
+    visualText: [
+      "Selective buyers respond to order and restraint.",
+      "Noise weakens authority.",
+      "Premium positioning fails when communication behaves like volume."
     ],
-    strategicGap: [
-      "Many real estate brands still communicate premium through scale of advertising instead of structure of presentation.",
-      "That weakens the authority premium positioning requires."
+    strategicInsight:
+      "Premium positioning fails when communication behaves like volume advertising instead of controlled category framing.",
+    modelLines: [
+      "Hierarchy before exposure",
+      "Restraint before repetition",
+      "Consistency before performance pressure"
     ],
-    developmentModel: [
-      "We would shape a cleaner hierarchy across brand framing, campaign entry points, and conversion environments.",
-      "Every layer would reinforce one market reading instead of several competing ones."
-    ],
-    expectedShift: [
-      "The development would begin to read as more considered and more category-defining.",
-      "That changes how serious buyers approach the brand."
+    finalShift: [
+      "The development would read as more considered, more composed, and more category-defining.",
+      "That changes the seriousness of incoming demand."
     ]
   },
   {
     slug: "casagrand",
     name: "Casagrand",
     location: "Chennai",
-    subtext: "Scale supported by structured market reading",
+    heroLine: "A structured growth model to shift large-scale real estate branding from generic acquisition to category authority.",
+    strategicLine: "Scale needs stronger interpretive control.",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Casagrand operates at a scale where clarity across multiple buyer segments becomes commercially important.",
-      "The challenge is not visibility. It is interpretation."
+    statement: [
+      "Large-scale development creates reach by default.",
+      "It does not create coherence by default.",
+      "The market needs a clearer operating logic to interpret scale."
     ],
-    marketObservation: [
-      "Large-volume developers often gain reach quickly but lose cohesion across message, product framing, and conversion pathways.",
-      "That creates inconsistent value perception."
+    visualText: [
+      "Volume often amplifies fragmentation.",
+      "The market sees more and understands less.",
+      "That is why cohesion must be built before acceleration."
     ],
-    strategicGap: [
-      "Without a structured system, scale can intensify fragmentation rather than authority.",
-      "The market sees more, but understands less."
+    strategicInsight:
+      "Scale becomes brand strength only when positioning, demand, and conversion operate inside one disciplined system.",
+    modelLines: [
+      "Position before expansion",
+      "Buyer logic before channel volume",
+      "Control before acceleration"
     ],
-    developmentModel: [
-      "We would organize the communication system around buyer-specific logic, stronger positioning layers, and cleaner performance sequencing.",
-      "That would allow scale to operate with more control."
-    ],
-    expectedShift: [
-      "The brand would present with greater strategic coherence across campaigns and landing environments.",
-      "That is what turns volume into durable brand strength."
+    finalShift: [
+      "The development would present with greater cohesion across media, message, and response environments.",
+      "That is what turns scale into durable authority."
     ]
   },
   {
     slug: "godrej-properties",
     name: "Godrej Properties",
     location: "Bengaluru",
-    subtext: "Category authority refined through digital precision",
+    heroLine: "A precision-driven framework to shift project communication from generic campaigns to category-defining positioning.",
+    strategicLine: "Institutional trust still needs project-level precision.",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Godrej Properties competes in environments where institutional trust already exists, but perception still needs refinement at the project level.",
-      "That makes execution quality decisive."
+    statement: [
+      "Institutional credibility creates trust.",
+      "Project-level precision creates preference.",
+      "Project narratives still determine how authority is translated."
     ],
-    marketObservation: [
-      "Established developers are not judged only by credibility, but by how consistently they translate that credibility into project-specific demand.",
-      "The market expects coherence, not just presence."
+    visualText: [
+      "Established brands are judged by coherence.",
+      "Presence alone is expected.",
+      "The real distinction comes from how clearly the project is framed."
     ],
-    strategicGap: [
-      "Even strong brands can appear generic when digital environments are built campaign-first instead of position-first.",
-      "That compresses premium distance."
+    strategicInsight:
+      "Even trusted brands lose premium distance when digital environments are built campaign-first instead of position-first.",
+    modelLines: [
+      "Narrative before amplification",
+      "Tone before tactic",
+      "Confidence before conversion pressure"
     ],
-    developmentModel: [
-      "We would define sharper project narratives, align channel behavior with brand tone, and structure conversion systems to sustain a higher level of buyer confidence.",
-      "The emphasis would be precision, not excess."
-    ],
-    expectedShift: [
-      "The market would interpret the development with greater clarity and less friction.",
+    finalShift: [
+      "The project would feel clearer, more composed, and easier to interpret at a premium level.",
       "That strengthens both authority and buyer seriousness."
     ]
   },
@@ -156,28 +167,30 @@ export const developments: Development[] = [
     slug: "rajapushpa",
     name: "Rajapushpa",
     location: "Hyderabad",
-    subtext: "Demand structured around premium perception",
+    heroLine: "A strategic real estate model to move premium visibility from generic advertising to category-defining brand control.",
+    strategicLine: "Premium perception must lead demand quality.",
     image:
       "https://images.unsplash.com/photo-1462396240927-52058a6a84ec?auto=format&fit=crop&w=1800&q=80",
-    context: [
-      "Rajapushpa operates in a premium environment where demand quality matters as much as demand volume.",
-      "That shifts the question from exposure to interpretation."
+    statement: [
+      "Premium demand is shaped by interpretation first.",
+      "Exposure becomes secondary once confidence is formed.",
+      "That makes positioning more important than volume."
     ],
-    marketObservation: [
-      "High-value buyers do not respond to real estate communication in the same way mass-market audiences do.",
-      "They form confidence through structure, not promotion."
+    visualText: [
+      "High-value buyers do not respond like mass audiences.",
+      "They respond to structure.",
+      "Confidence rises when the category is framed with restraint."
     ],
-    strategicGap: [
-      "When premium developments are marketed with generic acquisition logic, the brand loses the distinction the product deserves.",
-      "The result is visibility without category authority."
+    strategicInsight:
+      "Generic acquisition logic reduces premium developments to visible inventory instead of category-defining offers.",
+    modelLines: [
+      "Position before promotion",
+      "Confidence before volume",
+      "Structure before scale"
     ],
-    developmentModel: [
-      "We would organize positioning, demand architecture, and conversion environments around a more deliberate premium reading.",
-      "That would create stronger narrative control at every touchpoint."
-    ],
-    expectedShift: [
-      "The development would feel less like inventory and more like a considered market category.",
-      "That changes the quality of buyer attention before results are discussed."
+    finalShift: [
+      "The development would feel less like available stock and more like a deliberate market category.",
+      "That changes the quality of attention before any result is discussed."
     ]
   }
 ];
