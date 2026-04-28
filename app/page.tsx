@@ -12,7 +12,7 @@ export default function Home() {
           poster="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2400&q=80"
         >
           <source
-            src="/hero-video.mp4"
+            src="/Home%20Page/hero-video.mp4"
             type="video/mp4"
           />
           <source
@@ -37,7 +37,7 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/home-leadership.jpg')"
+              backgroundImage: "url('/Home%20Page/home-leadership.jpg')"
             }}
           />
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.18)_42%,rgba(0,0,0,0)_72%)]" />
@@ -77,7 +77,7 @@ export default function Home() {
             role="img"
             className="min-h-[32rem] rounded-[18px] bg-cover bg-center lg:min-h-[40rem]"
             style={{
-              backgroundImage: "url('/home-strategy.jpg')"
+              backgroundImage: "url('/Home%20Page/home-strategy.jpg')"
             }}
           />
           <div className="max-w-[38rem] lg:max-w-[34rem]">
@@ -102,7 +102,7 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center grayscale"
             style={{
-              backgroundImage: "url('/home-pause.jpg')"
+              backgroundImage: "url('/Home%20Page/home-pause.jpg')"
             }}
           />
           <div className="absolute inset-0 flex items-center justify-center px-8 text-center sm:px-14 lg:px-20">
@@ -145,7 +145,7 @@ export default function Home() {
             role="img"
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/home-skyline.jpg')"
+              backgroundImage: "url('/Home%20Page/home-skyline.jpg')"
             }}
           />
           <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.16)_40%,rgba(0,0,0,0)_72%)]" />

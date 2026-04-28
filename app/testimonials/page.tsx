@@ -104,7 +104,7 @@ export default function TestimonialsPage() {
             aria-label="Strategic alignment environment"
             role="img"
             className="aspect-[16/9] rounded-[24px] bg-cover bg-center"
-            style={{ backgroundImage: "url('/approach-system.png')" }}
+            style={{ backgroundImage: "url('/Testimonials/testimonials.jpg')" }}
           />
           <div className="max-w-[30rem]">
             <p className="text-[0.84rem] font-normal uppercase tracking-[0.22em] text-[#A68A5B]">

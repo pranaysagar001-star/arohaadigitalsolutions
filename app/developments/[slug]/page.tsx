@@ -28,7 +28,7 @@ export default async function DevelopmentDetailPage({
             aria-label={development.name}
             role="img"
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url('${development.image}')` }}
+            style={{ backgroundImage: `url('${development.heroImage}')` }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.52)_0%,rgba(0,0,0,0.24)_44%,rgba(0,0,0,0)_80%)]" />
           <div className="relative flex min-h-[84vh] items-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-20 lg:pb-20">
@@ -64,7 +64,7 @@ export default async function DevelopmentDetailPage({
               aria-label={`${development.name} strategic environment`}
               role="img"
               className="min-h-[30rem] rounded-[24px] bg-cover bg-center lg:min-h-[36rem]"
-              style={{ backgroundImage: `url('${development.image}')` }}
+              style={{ backgroundImage: `url('${development.detailImage}')` }}
             />
             <div className="max-w-[30rem]">
               <p className="text-[0.84rem] font-normal uppercase tracking-[0.22em] text-[#A68A5B]">

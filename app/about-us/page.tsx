@@ -26,7 +26,7 @@ export default function AboutUsPage() {
             aria-label="Luxury architecture skyline"
             role="img"
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/about-cover.jpg')" }}
+            style={{ backgroundImage: "url('/About%20us/about-cover.jpg')" }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.48)_0%,rgba(0,0,0,0.16)_42%,rgba(0,0,0,0)_78%)]" />
           <div className="relative flex min-h-[88vh] items-end px-8 pb-12 sm:px-12 sm:pb-16 lg:px-20 lg:pb-24">
@@ -72,7 +72,7 @@ export default function AboutUsPage() {
             aria-label="Arohaa story environment"
             role="img"
             className="min-h-[38rem] rounded-[24px] bg-cover bg-center"
-            style={{ backgroundImage: "url('/about-story.jpg')" }}
+            style={{ backgroundImage: "url('/About%20us/about-story.jpg')" }}
           />
           <div className="max-w-[32.5rem]">
             <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">
@@ -120,7 +120,7 @@ export default function AboutUsPage() {
             aria-label="Founder portrait"
             role="img"
             className="aspect-square min-h-[28rem] rounded-[24px] bg-cover bg-center"
-            style={{ backgroundImage: "url('/about-founder.png')" }}
+            style={{ backgroundImage: "url('/About%20us/about-founder.png')" }}
           />
           <div className="max-w-[32.5rem]">
             <p className="text-[0.78rem] font-light uppercase tracking-[0.18em] text-[#A68A5B]">

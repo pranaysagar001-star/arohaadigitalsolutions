@@ -6,7 +6,7 @@ import { Navbar } from "@/components/navbar";
 export const metadata: Metadata = {
   title: "Arohaa Digital Solutions",
   icons: {
-    icon: "/logo.png"
+    icon: "/on%20tab/on-tab.png"
   }
 };
 

@@ -4,7 +4,9 @@ export type Development = {
   location: string;
   heroLine: string;
   strategicLine: string;
-  image: string;
+  cardImage: string;
+  heroImage: string;
+  detailImage: string;
   statement: string[];
   visualText: string[];
   strategicInsight: string;
@@ -19,8 +21,9 @@ export const developments: Development[] = [
     location: "Hyderabad",
     heroLine: "A strategic structure to move residential branding from generic visibility to category-defining market position.",
     strategicLine: "Urban expansion requires sharper category control.",
-    image:
-      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/sukhii%20outer.png",
+    heroImage: "/Developments/Inner%20Page/sukhii%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/sukhii%20inner%202.png",
     statement: [
       "Fast-moving residential corridors reward visibility.",
       "They reward structured perception even more.",
@@ -49,8 +52,9 @@ export const developments: Development[] = [
     location: "Hyderabad",
     heroLine: "A positioning-led model to shift real estate communication from generic advertising to sharper category distinction.",
     strategicLine: "Competitive corridors demand sharper distinction.",
-    image:
-      "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/Vertex%20homes%20outer.png",
+    heroImage: "/Developments/Inner%20Page/Vertex%20homes%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/vertex%20inner%202.png",
     statement: [
       "Quality alone rarely secures perception.",
       "The market responds to the frame around it.",
@@ -79,8 +83,9 @@ export const developments: Development[] = [
     location: "Hyderabad",
     heroLine: "A strategic approach to move premium real estate brands from repetitive promotion to category-defining perception.",
     strategicLine: "Premium demand responds to controlled narrative.",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/Vasavi%20outer.png",
+    heroImage: "/Developments/Inner%20Page/vasavi%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/vasavi%20inner%202.png",
     statement: [
       "Premium environments are interpreted before they are evaluated.",
       "Presence alone does not create pricing confidence.",
@@ -109,8 +114,9 @@ export const developments: Development[] = [
     location: "Chennai",
     heroLine: "A structured growth model to shift large-scale real estate branding from generic acquisition to category authority.",
     strategicLine: "Scale needs stronger interpretive control.",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/Casa%20grand%20outer.png",
+    heroImage: "/Developments/Inner%20Page/casagrand%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/casa%20grand%20inner%202.png",
     statement: [
       "Large-scale development creates reach by default.",
       "It does not create coherence by default.",
@@ -139,8 +145,9 @@ export const developments: Development[] = [
     location: "Bengaluru",
     heroLine: "A precision-driven framework to shift project communication from generic campaigns to category-defining positioning.",
     strategicLine: "Institutional trust still needs project-level precision.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/Godrej%20outer.png",
+    heroImage: "/Developments/Inner%20Page/godrej%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/godrej%20inner%202.png",
     statement: [
       "Institutional credibility creates trust.",
       "Project-level precision creates preference.",
@@ -169,8 +176,9 @@ export const developments: Development[] = [
     location: "Hyderabad",
     heroLine: "A strategic real estate model to move premium visibility from generic advertising to category-defining brand control.",
     strategicLine: "Premium perception must lead demand quality.",
-    image:
-      "https://images.unsplash.com/photo-1462396240927-52058a6a84ec?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Developments/Outer%20Page/rajapushpa%20outer.png",
+    heroImage: "/Developments/Inner%20Page/rajapushpa%20inner%20hero.png",
+    detailImage: "/Developments/Inner%20Page/rajapushpa%20inner%202.png",
     statement: [
       "Premium demand is shaped by interpretation first.",
       "Exposure becomes secondary once confidence is formed.",

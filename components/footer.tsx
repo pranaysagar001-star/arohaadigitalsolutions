@@ -52,7 +52,7 @@ export function Footer() {
           <div>
             <Link href="/" aria-label="Arohaa Digital Solutions home" className="inline-flex">
               <Image
-                src="/arohaa-logo-gold.png"
+                src="/Navbar%20%26%20Footer/arohaa-logo-gold.png"
                 alt="Arohaa Digital Solutions"
                 width={300}
                 height={190}

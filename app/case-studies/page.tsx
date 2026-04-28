@@ -32,7 +32,7 @@ export default function CaseStudiesPage() {
                     aria-label={study.name}
                     role="img"
                     className="aspect-[16/9] overflow-hidden rounded-[22px] bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-                    style={{ backgroundImage: `url('${study.image}')` }}
+                    style={{ backgroundImage: `url('${study.cardImage}')` }}
                   />
                   <div className="mt-6 max-w-[22rem] space-y-3">
                     <h2 className="font-sans text-[1.28rem] font-semibold leading-[1.2] text-[#1A1A1A] sm:text-[1.38rem]">

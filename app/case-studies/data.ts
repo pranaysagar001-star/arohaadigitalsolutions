@@ -5,7 +5,9 @@ export type CaseStudy = {
   problemLine: string;
   heroStatement: string;
   heroLine: string;
-  image: string;
+  cardImage: string;
+  heroImage: string;
+  detailImage: string;
   marketObservation: string[];
   strategicGap: string[];
   approachSupport: string;
@@ -21,8 +23,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Visibility increased. Distinction did not.",
     heroLine:
       "A strategic model to move residential branding from generic expansion into category-defining market position.",
-    image:
-      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/sukhii%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/sukhii%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/sukhii%20inner%202.png",
     marketObservation: [
       "Residential expansion corridors generate attention quickly.",
       "Buyers compare faster when surrounding launches look and sound alike.",
@@ -49,8 +52,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Competition increased. Distinction weakened.",
     heroLine:
       "A positioning-led case model to shift project communication from generic competition into category-specific market clarity.",
-    image:
-      "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/Vertex%20homes%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/Vertex%20homes%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/vertex%20inner%202.png",
     marketObservation: [
       "Growth corridors compress differences between launches.",
       "High-frequency competition reduces the impact of product quality alone.",
@@ -77,8 +81,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Demand existed. Narrative control did not.",
     heroLine:
       "A strategic positioning model to shift premium real estate communication from repetitive promotion into category-defining brand authority.",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/Vasavi%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/vasavi%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/vasavi%20inner%202.png",
     marketObservation: [
       "Premium demand responds to order, restraint, and confidence.",
       "Buyers in this segment interpret brand tone before campaign frequency.",
@@ -105,8 +110,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Scale expanded. Clarity thinned out.",
     heroLine:
       "A structured real estate framework to shift large-scale communication from generic acquisition intensity into category-defining coherence.",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/Casa%20grand%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/casagrand%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/casa%20grand%20inner%202.png",
     marketObservation: [
       "Large-scale developers generate reach by default.",
       "The challenge is not attention, but coherence across multiple entry points.",
@@ -133,8 +139,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Trust existed. Preference remained unresolved.",
     heroLine:
       "A precision-led strategy to shift project communication from generic campaign credibility into category-defining buyer preference.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/Godrej%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/godrej%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/godrej%20inner%202.png",
     marketObservation: [
       "Established brands enter the market with default trust.",
       "Project-level preference still depends on narrative precision.",
@@ -161,8 +168,9 @@ export const caseStudies: CaseStudy[] = [
     heroStatement: "Premium value existed. Perception control did not.",
     heroLine:
       "A strategic market model to shift premium real estate visibility from generic advertising into category-defining perception control.",
-    image:
-      "https://images.unsplash.com/photo-1462396240927-52058a6a84ec?auto=format&fit=crop&w=1800&q=80",
+    cardImage: "/Case%20Studies/Outer%20Page/rajapushpa%20outer.png",
+    heroImage: "/Case%20Studies/Inner%20Page/rajapushpa%20inner%20hero.png",
+    detailImage: "/Case%20Studies/Inner%20Page/rajapushpa%20inner%202.png",
     marketObservation: [
       "Premium buyers interpret value before they respond to promotion.",
       "Mass-market acquisition logic weakens that reading.",

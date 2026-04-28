@@ -52,7 +52,7 @@ export function Navbar() {
           aria-label="Arohaa Digital Solutions home"
         >
           <Image
-            src="/navbar-logo-transparent.png"
+            src="/Navbar%20%26%20Footer/navbar-logo-transparent.png"
             alt="Arohaa Digital Solutions"
             width={490}
             height={436}
